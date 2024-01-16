@@ -11,7 +11,7 @@ def log(mensaje, tipo: str) -> int:
         }
         procname = inspect.stack()[1][3]
         # Webhook of my channel. Click on edit channel --> Webhooks --> Creates webhook
-        mUrl = "https://discord.com/api/webhooks/852593467003371581/UO6pjrI1w3CZ7QC1EGdDS7xzdaZukJS9t6qO4Grckon9BsLq4ZuRPWfKkvJE3fZ06pxy"
+        mUrl = "https://discord.com/api/webhooks/852593467003371581/FALSO"
         webhook = DiscordWebhook(
             # proxies=proxies,
             url=mUrl,
