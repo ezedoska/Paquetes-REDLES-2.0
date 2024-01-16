@@ -35,7 +35,7 @@ def go():
         server = (
             r"Driver={SQL Server};"
             + f"Server={Ip};"
-            + f"Database=adm_efectores;UID=sqlemore;PWD=Eze2kftw!;"
+            + f"Database=adm_efectores;UID=IDFALSA;PWD=PasswordFalso;"
         )
         # Ip = ".\OUTER_HEAVEN"
         # server = (
