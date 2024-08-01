@@ -28,7 +28,7 @@ def go():
         # creamos la variable con los datos del server
         computer = os.environ["COMPUTERNAME"]
         if "vdm-" in computer.lower():
-            Ip = "192.168.1.40,21433"
+            Ip = "LLENAR"
         else:
             # Ip = "localhost,21433"
             Ip = "127.0.0.1,21433"
